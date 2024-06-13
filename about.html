@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <headMeta-component></headMeta-component>
+    <!-- css & fonts -->
+    <styles-component></styles-component>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
+    </div>
+
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+
+        <header class="main-header main-header--one  clearfix">
+            <div class="main-header--one__top clearfix">
+                <div class="container">
+                    <div class="main-header--one__top-inner clearfix">
+                        <div class="main-header--one__top-left">
+                            <div class="main-header--one__top-logo">
+                                <a href="./index.html"><img src="../assets/images/logo.png" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="main-header--one__top-right clearfix">
+                            <div class="main-header--one__top-logo">
+                                <img src="../assets/images/HIPAA.png" alt="" height="48" />
+                            </div>
+                            <div class="main-header--one__top-logo">
+                                <a href="appointment.html" class="thm-btn ms-3">Book an Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-header-one__bottom clearfix">
+                <div class="container">
+                    <div class="main-header-one__bottom-inner clearfix">
+                        <nav class="main-menu main-menu--1">
+                            <div class="main-menu__inner">
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+
+                                <div class="left">
+                                    <ul class="main-menu__list">
+                                        <li><a href="./clinicContact.html">Helpline 24/7</a></li>
+                                        <li><a href="./whyImportant.html">Why It's Important</a></li>
+                                        <li class="dropdown">
+                                            <a href="javascrip:void(0);">About</a>
+                                            <ul>
+                                                <li><a href="./about.html">About Us</a></li>
+                                                <li><a href="./team.html">Team</a></li>
+                                                <!-- <li><a href="./gallery.html">Gallery</a></li> -->
+                                                <li><a href="./caseStudy.html">Case Studies</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="./services.html">Services</a></li>
+                                        <li class="dropdown">
+                                            <a href="javascrip:void(0);">Partners</a>
+                                            <ul>
+                                                <li><a href="https://www.cadabamshospitals.com/" target="_blank">Cadabam
+                                                        Health Group</a></li>
+                                                <li><a href="https://annantasource.com/" target="_blank">Annanta
+                                                        Source</a></li>
+                                                <li><a href="https://one4patient.com/" target="_blank">One4Patient</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="./blog.html">Blogs</a></li>
+                                        <li><a href="./liveStream.html">Live Stream</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="right">
+                                    <div class="main-menu__right">
+                                        <div class="main-menu__right-login-register">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#" class="thm-btn text-white py-0 px-2 text-capitalize"
+                                                        data-bs-toggle="modal" data-bs-target="#register">Register</a>
+                                                </li>
+                                                <li><a href="https://dashboard.one4patient.com/account/login"
+                                                        target="_blank"
+                                                        class="thm-btn text-white py-0 px-2 text-capitalize">Access My
+                                                        Records</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Reg Modal -->
+        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Hey There!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Welcome to our online patient registration portal, "One4Patient"! We value your privacy and
+                            are
+                            committed to ensuring that your information is secure. As part of our compliance with HIPAA
+                            regulations, we have implemented a secure and convenient way for you to access and manage
+                            your
+                            medical records.</p>
+
+                        <p>
+                            To complete your registration process, we will redirect you to our HIPAA-compliant
+                            portal, "One4Patient." Once registered, you can access your medical records,
+                            test results, and treatment plans. In addition, you can conveniently communicate
+                            with your healthcare professionals through this secure platform.
+                        </p>
+                        <p>
+                            To ensure the confidentiality of your information, we will share your login
+                            credentials via email and text message to the mobile number provided during
+                            registration. We understand the importance of safeguarding your data and have taken
+                            necessary measures to protect it.
+                        </p>
+                        <p>
+                            If you have any concerns regarding the security of email communication, please let
+                            us know, and we will make alternative arrangements to suit your preferences. Your
+                            peace of mind is our priority.
+                        </p>
+                        <p class="fw-bold">
+                            Thank you for choosing our online patient registration portal. We look forward
+                            to providing you with exceptional care and a seamless experience.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="thm-btn bg-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="https://dashboard.one4patient.com/account/register-patient" class="thm-btn"
+                            target="_blank">
+                            Registration
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Reg Modal-->
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content">
+
+            </div><!-- /.sticky-header__content -->
+        </div><!-- /.sticky-header -->
+
+
+        <section class="page-header clearfix" style="background-image: url(assets/images/pageHeader.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="page-header__wrapper clearfix">
+                            <div class="page-header__title">
+                                <h2>About us</h2>
+                            </div>
+                            <div class="page-header__menu">
+                                <ul class="page-header__menu-list list-unstyled clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active">About</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!----->
+        <section class="about-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="0ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <div class="about-two__single-img">
+                            <img src="assets/images/about-v2-img2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="about-two__single-img">
+                            <img src="assets/images/about-v2-img1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-two__bottom-content">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="about-two__title-box">
+                                <div class="section-title">
+                                    <span class="section-title__tagline">About Company</span>
+                                    <h2 class="section-title__title">An initiative to be a pioneer in an education IT
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <p class="about-two__text-box-text">Welcome to MindShift, the comprehensive mental health
+                                monitoring tool Education2.0's SchoolSense+ LMS/LXP provides. At MindShift, we
+                                understand that students' mental well-being is as important as their academic success.
+                                We have partnered with top-quality psychologists to offer specialized services and
+                                support to address various mental health issues.</p>
+
+
+
+                            <p class="mt-2">Our team of experts is dedicated to helping students overcome anxiety
+                                disorders, providing depression therapy, and facilitating group therapy sessions. We
+                                believe in a holistic approach that considers each student's unique needs and
+                                challenges. Integrating MindShift with the powerful One4patient EMR/EHR/LIS system
+                                ensures that students receive personalized and effective care.</p>
+
+
+
+                            <p>With MindShift, Education2.0 is committed to nurturing the mental well-being of students,
+                                empowering them to thrive academically and reach their full potential. We aim to create
+                                a safe and supportive environment where students can openly discuss their mental health
+                                concerns and receive the care they deserve.</p>
+
+
+
+                            <p>Please explore our website to learn more about the services and resources provided by
+                                MindShift. Together, we can positively impact students' lives, ensuring they have the
+                                tools and support they need to succeed in their educational journey.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------>
+
+        <!--New Content Goes Here-->
+        <section class="about">
+            <div class="container">
+                <div class="courses-one__single-content">
+                    <div class="course-details__content-text1 wow fadeInLeft animated" data-wow-delay="0ms"
+                        data-wow-duration="1000ms"
+                        style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+
+                        <p>Welcome to Education2.0, where we believe in the power of education and holistic well-being.
+                            As the team behind ArSquare Development Pvt. Ltd., we bring you SchoolSense+ LMS/LXP
+                            "MindShift," an innovative initiative designed to prioritize student mental health alongside
+                            academic
+                            performance.
+                        </p>
+                        <p>
+                            With a collective experience of 18-20 years in Education IT and Healthcare IT, our dedicated
+                            team understands the crucial link between mental health and academic success. We are
+                            passionate
+                            about creating a nurturing environment where students can thrive both academically and
+                            emotionally.
+                        </p>
+                        <p>
+                            At Education2.0, we recognize that students face various challenges that can impact their
+                            mental
+                            well-being. That's why we have developed MindShift, a comprehensive solution that combines
+                            cutting-edge technology with evidence-based therapeutic approaches.
+                        </p>
+                        <p>
+                            Our team of experts has carefully curated a range of resources and tools that address the
+                            unique
+                            mental health needs of students. From anxiety to substance abuse, ADHD to trauma, and
+                            perfectionism to stress, we are committed to providing tailored support to help students
+                            overcome these challenges.
+                        </p>
+                        <p>
+                            Through case studies and research, we have identified several therapeutic interventions that
+                            have proven to be effective in supporting students' mental health. Exposure Therapy,
+                            Motivational Interviewing, Behavioral Therapy, Eye Movement Desensitization and Reprocessing
+                            (EMDR), and Acceptance and Commitment Therapy (ACT) are just a few examples of the
+                            approaches we
+                            incorporate into our programs.
+                        </p>
+                        <p>
+                            With MindShift, we aim to foster resilience, emotional intelligence, and overall well-being
+                            among students. By equipping them with the necessary tools and strategies, we empower
+                            students
+                            to navigate the complexities of life while achieving their academic goals.
+                        </p>
+                        <p>
+                            At Education2.0, we firmly believe that investing in student mental health is an investment
+                            in
+                            their future. Join us on this transformative journey as we revolutionize education and
+                            prioritize the well-being of every student.
+                        </p>
+                        <h6>Together, let's create a brighter, healthier, and more successful tomorrow for our students.
+                        </h6>
+                    </div>
+
+                    <div class="course-details__content-text2 wow fadeInRight animated" data-wow-delay="0ms"
+                        data-wow-duration="1000ms">
+                        <h3 class="my-3">Mission: </h3>
+                        <p>Our mission is to prioritize student mental health in India by raising awareness, reducing
+                            stigma, and providing accessible and affordable mental health services. We aim to create a
+                            supportive school environment where students feel comfortable talking about their mental
+                            healthand receive the necessary support. </p>
+                    </div>
+
+                    <div class="course-details__content-text2 wow fadeInLeft animated" data-wow-delay="0ms"
+                        data-wow-duration="1000ms">
+                        <h3 class="my-3">Vision: </h3>
+                        <p>We envision a future where student mental health is valued and prioritized in India. We
+                            strive for a society where all students have access to the mental health resources they
+                            need, leading to improved academic performance, overall well-being, and reduced stigma
+                            surrounding mental health. </p>
+                    </div>
+
+                    <div class="course-details__content-list wow fadeInRight animated" data-wow-delay="0ms"
+                        data-wow-duration="1000ms">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-confirmation"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Empathy:</p>
+                                    <p>We believe in understanding and empathizing with the unique mental health
+                                        challenges faced by students in India. We strive to provide compassionate care
+                                        and support to promote their well-being. </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-confirmation"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Collaboration:</p>
+                                    <p>We value collaboration among students, parents, teachers, and mental health
+                                        professionals to create a comprehensive support system for student mental
+                                        health.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-confirmation"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Accessibility:</p>
+                                    <p>We are committed to making mental health services accessible and affordable for
+                                        all
+                                        students in India, regardless of their background or financial capabilities.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-confirmation"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Education:</p>
+                                    <p>We emphasize the importance of education and awareness about mental health issues
+                                        to
+                                        reduce stigma and promote a culture of understanding and empathy. </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-confirmation"></span>
+                                </div>
+                                <div class="text">
+                                    <p> Inclusivity:</p>
+                                    <p>We recognize the importance of inclusivity and aim to create a safe and
+                                        supportive
+                                        environment where students from all backgrounds can thrive mentally,
+                                        emotionally,
+                                        and academically. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="section-title text-center d-none">
+                    <span class="section-title__tagline"></span>
+                    <h2 class="section-title__title">Meet Our Team</h2>
+                </div>
+                <div class="row d-none">
+                    <!--Start Single Categories One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="0ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <div class="categories-one__single">
+                            <div class="categories-one__single-img">
+                                <img src="./assets/images/courses-v1-img1.jpg" alt="">
+                                <div class="categories-one__single-overlay">
+                                    <div class="categories-one__single-overlay-text1">
+                                        <p>3 years experience</p>
+                                    </div>
+                                    <div class="categories-one__single-overlay-text2">
+                                        <h4>Ethan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Categories One-->
+
+                    <!--Start Single Categories One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="categories-one__single">
+                            <div class="categories-one__single-img">
+                                <img src="./assets/images/courses-v1-img1.jpg" alt="">
+                                <div class="categories-one__single-overlay">
+                                    <div class="categories-one__single-overlay-text1">
+                                        <p>3 years experience</p>
+                                    </div>
+                                    <div class="categories-one__single-overlay-text2">
+                                        <h4>Ethan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Categories One-->
+
+                    <!--Start Single Categories One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="400ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: fadeInUp;">
+                        <div class="categories-one__single">
+                            <div class="categories-one__single-img">
+                                <img src="./assets/images/courses-v1-img1.jpg" alt="">
+                                <div class="categories-one__single-overlay">
+                                    <div class="categories-one__single-overlay-text1">
+                                        <p>3 years experience</p>
+                                    </div>
+                                    <div class="categories-one__single-overlay-text2">
+                                        <h4>Ethan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Categories One-->
+
+                    <!--Start Single Categories One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="600ms"
+                        data-wow-duration="1500ms"
+                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                        <div class="categories-one__single">
+                            <div class="categories-one__single-img">
+                                <img src="./assets/images/courses-v1-img1.jpg" alt="">
+                                <div class="categories-one__single-overlay">
+                                    <div class="categories-one__single-overlay-text1">
+                                        <p>3 years experience</p>
+                                    </div>
+                                    <div class="categories-one__single-overlay-text2">
+                                        <h4>Ethan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Categories One-->
+                    <div class="text-center mt-3 wow fadeInUp">
+                        <a href="./team.html" class="thm-btn mb-4">View Our Team</a>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+        </section>
+        <!--New Content Goes Here-->
+
+        <section class="about-one clearfix">
+            <div class="container">
+                <div class="row">
+                    <!-- Start About One Left-->
+                    <div class="col-xl-6">
+                        <div class="clearfix gsc-image-content skin-v3">
+                            <div class="image">
+                                <img src="./assets/images/why-choose-v1-img.jpg"
+                                    class="attachment-full size-full wp-image-914" alt="" />
+                            </div>
+                            <div class="shape-1"></div>
+                            <div class="shape-2"></div>
+                        </div>
+                    </div>
+                    <!-- End About One Left-->
+
+
+                    <!-- Start About One Right-->
+                    <div class="col-xl-6">
+                        <div class="about-one__right wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="section-title">
+                                <h4 class="section-title__title">Dr. Merry Stone
+                                </h4>
+                                <span class="section-title__tagline">Licensed mental health counselor,
+                                    psychotherapist</span>
+                            </div>
+                            <div class="about-one__right-inner">
+                                <p class="about-one__right-text">
+                                    It is a long established fact that a reader will be distracted by the readable
+                                    content of a page established fact that a reader will be distracted by the readable
+                                    content of a page
+                                </p>
+                                <div class="d-flex justify-content-evenly">
+                                    <ul class="about-one__right-list list-unstyled">
+                                        <li class="about-one__right-list-item">
+                                            <div class="icon">
+                                                <span class="icon-confirmation"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Personal Consultation</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="about-one__right-list-item">
+                                            <div class="icon">
+                                                <span class="icon-confirmation"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Group Therapy</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="about-one__right-list-item">
+                                            <div class="icon">
+                                                <span class="icon-confirmation"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Online Therapy</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="about-one__right-list list-unstyled">
+                                        <li class="about-one__right-list-item">
+                                            <div class="icon">
+                                                <span class="icon-confirmation"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Unique technique</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="about-one__right-list-item">
+                                            <div class="icon">
+                                                <span class="icon-confirmation"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Couple Problem</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="text-center my-5 wow fadeInUp">
+                                    <a href="./appointment.html" class="thm-btn">Book an Appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End About One Right-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <div class="wrapper wow fadeInUp animated d-none" data-wow-delay="0ms" data-wow-duration="1500ms"
+            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+            <div class="section-title text-center">
+                <span class="section-title__tagline"></span>
+                <h2 class="section-title__title">Certificates</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim impedit a iure velit quia iusto id
+                    obcaecati nihil et doloremque.</p>
+            </div>
+            <div class="photobanner">
+                <img class="first" src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg" alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+                <img src="https://i.ibb.co/DfbLcN1/photo-1426901013385-803d40bd5558.jpg " alt="" />
+            </div>
+
+        </div>
+
+        <!-- Photos -->
+        <section class="my-5 d-none">
+            <div class=" wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline"></span>
+                    <h2 class="section-title__title">Photos from our classes</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim impedit a iure velit quia iusto id
+                        obcaecati nihil et doloremque.</p>
+                </div>
+            </div>
+            <div class="container gallery wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+
+                <img class='hero'
+                    src='https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0'>
+                <img
+                    src='https://fastly.picsum.photos/id/173/1200/737.jpg?hmac=ujJhJBX1oswhCjRKDEeHR3kHWi-wfK6Q6UhhHuJo9hY'>
+                <img
+                    src='https://fastly.picsum.photos/id/38/1280/960.jpg?hmac=HBrgyJHQOGVicaWoXgvdSfTakkAyv4BxAt4rF0DhWkU'>
+                <img
+                    src='https://fastly.picsum.photos/id/49/1280/792.jpg?hmac=NnUJy0O9-pXHLmY2loqVs2pJmgw9xzuixgYOk4ALCXU'>
+                <img
+                    src='https://fastly.picsum.photos/id/154/3264/2176.jpg?hmac=a4Q6dBKGy7G27ic7K1sEPr-KzMigvl-MQsZUEX9iFxM'>
+                <img
+                    src='https://fastly.picsum.photos/id/173/1200/737.jpg?hmac=ujJhJBX1oswhCjRKDEeHR3kHWi-wfK6Q6UhhHuJo9hY'>
+                <img
+                    src='https://fastly.picsum.photos/id/38/1280/960.jpg?hmac=HBrgyJHQOGVicaWoXgvdSfTakkAyv4BxAt4rF0DhWkU'>
+                <img
+                    src='https://fastly.picsum.photos/id/49/1280/792.jpg?hmac=NnUJy0O9-pXHLmY2loqVs2pJmgw9xzuixgYOk4ALCXU'>
+                <img
+                    src='https://fastly.picsum.photos/id/154/3264/2176.jpg?hmac=a4Q6dBKGy7G27ic7K1sEPr-KzMigvl-MQsZUEX9iFxM'>
+                <img class='hero'
+                    src='https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0'>
+                <img
+                    src='https://fastly.picsum.photos/id/173/1200/737.jpg?hmac=ujJhJBX1oswhCjRKDEeHR3kHWi-wfK6Q6UhhHuJo9hY'>
+                <img
+                    src='https://fastly.picsum.photos/id/38/1280/960.jpg?hmac=HBrgyJHQOGVicaWoXgvdSfTakkAyv4BxAt4rF0DhWkU'>
+                <img
+                    src='https://fastly.picsum.photos/id/49/1280/792.jpg?hmac=NnUJy0O9-pXHLmY2loqVs2pJmgw9xzuixgYOk4ALCXU'>
+                <img
+                    src='https://fastly.picsum.photos/id/173/1200/737.jpg?hmac=ujJhJBX1oswhCjRKDEeHR3kHWi-wfK6Q6UhhHuJo9hY'>
+            </div>
+            <div class="text-center mt-3 wow fadeInUp">
+                <a href="./gallery.html" class="thm-btn mb-4">View All Photos</a>
+            </div>
+        </section>
+
+        <!-- Contact Page Start -->
+        <section class="contact-page">
+            <div class="container">
+                <div class="row  wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="contact-page__left">
+                            <div class="section-title">
+                                <span class="section-title__tagline">Send a Message</span>
+                                <h2 class="section-title__title">Get Your Free Online Consultation</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus facilis illo
+                                    autem
+                                    minus. Sit consequatur, facilis ipsam quidem nam temporibus!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="contact-page__right">
+                            <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated"
+                                novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="text" placeholder="Your name" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="email" placeholder="Email address" name="email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="text" placeholder="Phone number" name="phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <!--  -->
+
+                                        <!--  -->
+                                        <div class="comment-form__input-box">
+                                            <input type="email" placeholder="Subject" name="Subject">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12">
+                                        <div class="comment-form__input-box">
+                                            <textarea name="message" placeholder="Write message"></textarea>
+                                        </div>
+                                        <button type="submit" class="thm-btn comment-form__btn">Get a
+                                            Consultation</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Contact page -->
+
+        <!-- Start Footer One -->
+        <footer-component></footer-component>
+        <!--End Footer One  -->
+    </div><!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/mobilemenu_logo.png" width="155"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="icon-phone-call"></i>
+                    <a href="mailto:info@education2.in">info@education2.in</a>
+                </li>
+                <li>
+                    <i class="icon-letter"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top d-none">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn2">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery.ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery.appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery.circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery.validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wNumb/wNumb.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
+    <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
+    <script src="assets/vendors/parallax/parallax.min.js"></script>
+
+
+    <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script> -->
+
+    <!-- template js -->
+    <script src="assets/js/scripts.js"></script>
+
+    <script src="./components/headmeta-component.js" type="text/javascript" defer></script>
+    <script src="./components/styles-component.js" type="text/javascript" defer></script>
+    <script src="./components/header-component.js" type="text/javascript" defer></script>
+    <script src="./components/footer-component.js" type="text/javascript" defer></script>
+</body>
+
+</html>
